@@ -8,3 +8,4 @@ bevy_asset = "0.14.0"
 bevy_gltf = "0.14.0"
 bevy_scene = "0.14.0"
 bevy_typed_gltf_macros = { path = "macros", version = "0.1.0" }
+thiserror = "1.0.63"

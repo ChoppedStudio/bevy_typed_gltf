@@ -739,6 +739,7 @@ dependencies = [
  "bevy_gltf",
  "bevy_scene",
  "bevy_typed_gltf_macros",
+ "thiserror",
 ]
 
 [[package]]

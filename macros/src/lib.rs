@@ -96,7 +96,7 @@ pub fn typed_gltf_derive(input: TokenStream) -> TokenStream {
 
     quote! {
         impl #impl_generics ::bevy_typed_gltf::TypedGltf for #name #ty_generics #where_clause {
-            fn from_gltf(gltf: ::bevy_typed_gltf::Gltf) -> Result<Self, ::bevy_typed_gltf::GltfTypeError> {
+            fn from_gltf(gltf: &::bevy_typed_gltf::Gltf) -> Result<Self, ::bevy_typed_gltf::GltfTypeError> {
                 #constructor
             }
         }
